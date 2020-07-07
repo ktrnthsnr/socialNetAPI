@@ -1,5 +1,5 @@
 ﻿# Social Networking API
-Node.js based social networking application where friends may comment on each other's posts, to demonstrate the backend work supported by a MongoDB and Mongoose ODM, and the API routes from an Express.js server, as seen by testing locally through the Insomnia tool.
+Node.js based social networking application API where friends may comment on each other's posts, to demonstrate the backend work supported by a MongoDB and Mongoose ODM, and the API routes from an Express.js server, as seen by testing locally through the Insomnia tool.
 
 ## GitHub URL
 
@@ -21,9 +21,9 @@ https://github.com/ktrnthsnr/socialNetworkAPI
 
 - In this social networking application API, users may create a list of friends, then post some of their thoughts and also react to each other's thoughts. Additionally, users may be able to edit or delete these as well. 
 
-- The Node.js based API uses Express.js for routing, MongoDB as the NoSQL backend database, Mongoose Object Data Management (ODM) system to manage the database queries, and Moment.js npm package to format any time dependent aspects of the application. 
+- The Node.js based API uses Express.js for routing, MongoDB as data storage for the NoSQL backend database, Mongoose Object Data Management (ODM) system to create and manage the database queries on startup, and Moment.js npm package to format any time dependent aspects of the application. 
 
-- This Readme.md includes a walkthrough of the backend portion of the work required by a website to provide large amounts of unstructured data.  The walkthrough listed under the TOC Usage, shows the application if it were cloned to a localhost and started at the Node.js commandline, with the API endpoints viewed through the Insomnia tool. Invoking the application at the bash terminal, the JavaScript begins with the start up of the Express.js server which then creates the Mongoose table models, syncing to the MongoDB backend. Then through the debugging Insomnia tool, you can view the API routes and JSON output shown when a user is created, their friends are added to their lists, and their thoughts and reactions to their friends' thoughts are added, updated or removed. 
+- This Readme.md includes a walkthrough of the backend portion of the work required by a website to provide large amounts of unstructured data.  The walkthrough listed under the TOC Usage, shows the application if it were cloned to a localhost and started at the Node.js commandline, with the API endpoints viewed through the Insomnia tool. Invoking the application at the bash terminal, the JavaScript begins with the start up of the Express.js server which then creates the Mongoose table models, syncing to the MongoDB backend. Then through the debugging Insomnia tool, you can view the API routes and JSON output shown when a user is created, their friends are added to their lists, and their thoughts and reactions to their friends' thoughts are added, updated or removed - basically the social interaction of a group of friends!
 
 ## Technology
 
