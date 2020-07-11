@@ -27,7 +27,7 @@ https://github.com/ktrnthsnr/socialNetworkAPI
 
 ## Technology
 
-MongoDB, Express.js, Mongoose, Insomnia, Node.js, JavaScript, ES6, npm, Moment.js
+MongoDB, Express.js, Mongoose JS, Insomnia, Node.js, JavaScript, ES6, npm, Moment.js
 
 ## Installations
 
@@ -47,7 +47,7 @@ MongoDB, Express.js, Mongoose, Insomnia, Node.js, JavaScript, ES6, npm, Moment.j
 - If this applicatin is cloned from github, complete the installationt, then start up at the bash commandline, by typing
 - $ `npm start`
 - Here is walkthrough of the application from the localhost, if viewing the API routes through Insomnia,
-https://drive.google.com/file/d/1dJ-OlTGk3EytEQz7VkF12kezHgnAioXQ/view
+
 - 
 ![site](./img/site.jpg "insert")
 
