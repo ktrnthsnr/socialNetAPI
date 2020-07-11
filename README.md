@@ -1,9 +1,9 @@
 ﻿# Social Networking API
-Node.js based social networking application API where friends may comment on each other's posts, to demonstrate the backend work supported by a MongoDB and Mongoose ODM, and the API routes from an Express.js server, as seen by testing locally through the Insomnia tool.
+Node.js based social networking application API where friends may comment on each other's posts, to demonstrate the backend work supported by a MongoDB and Mongoose JS ODM, and the API routes from an Express.js server, as seen by testing locally through the Insomnia tool.
 
 ## GitHub URL
 
-https://github.com/ktrnthsnr/socialNetworkAPI
+https://github.com/ktrnthsnr/socialNetAPI
 
 
 ## Table of Contents
@@ -19,7 +19,7 @@ https://github.com/ktrnthsnr/socialNetworkAPI
 
 ## Description
 
-- In this social networking application API, users may create a list of friends, then post some of their thoughts and also react to each other's thoughts. Additionally, users may be able to edit or delete these as well. 
+- This is the API for a social networking application, where users may create a list of friends, then post some of their thoughts and also react to each other's thoughts. Additionally, users may be able to edit or delete these as well. 
 
 - The Node.js based API uses Express.js for routing, MongoDB as data storage for the NoSQL backend database, Mongoose Object Data Management (ODM) system to create and manage the database queries on startup, and Moment.js npm package to format any time dependent aspects of the application. 
 
