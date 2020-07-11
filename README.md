@@ -35,12 +35,14 @@ MongoDB, Express.js, Mongoose JS, Insomnia, Node.js, JavaScript, ES6, npm, Momen
 - After cloning the GitHub repo to your local drive, run the following in the VSCode command-line terminal
 - Install all components listed within the package.json file for npm
 - $ `npm i`
--
 - For custom installations, start with initializing npm
 - $ `npm init -y` or $ `npm install`
+- Install npm express, more info https://www.npmjs.com/package/express
+- $ `npm install express`
 - Manaully update the package.json to  `"main": "server.js",` instead of index.js
 - Create a .gitignore file in the root and add `node_modules` to this file
 - If you need to re-add the dependencies, run $ `npm install`
+- Install MongoDB, first create a `c:/data/db` directory on your root, then install the Community Server https://www.mongodb.com/try/download/community, excluding the compass from the installation, and adding the /bin folder to the environment variable PATH.
 
 ## Usage
 
