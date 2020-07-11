@@ -4,7 +4,8 @@
   "description": "Node.js based social networking application API where friends may comment on each other's posts, to demonstrate the backend work supported by a MongoDB and Mongoose ODM, and the API routes from an Express.js server, as seen by testing locally through the Insomnia tool.",
   "main": "server.js",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.9.23"
   },
   "devDependencies": {},
   "scripts": {

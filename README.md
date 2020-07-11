@@ -1,5 +1,5 @@
 ﻿# Social Networking API
-API back-end work required for a social networking application supported by a MongoDB and Mongoose JS ODM, and routes from an Express.js server, as seen by testing locally through the Insomnia tool.
+API back-end work required for a social networking application supported by a NoSQL MongoDB and MongooseJS library, and API routes from an Express.js server, tested through the Insomnia tool.
 
 ## GitHub URL
 
@@ -13,7 +13,7 @@ https://github.com/ktrnthsnr/socialNetAPI
 * [Installations](#installations)
 * [Usage](#usage)
 * [Testing](#testing)
-* [Schema](#schema)
+* [Collections](#collections)
 * [Userstory](#Userstory)
 * [Contribution](#contribution)
 
@@ -42,7 +42,9 @@ MongoDB, Express.js, Mongoose JS, Insomnia, Node.js, JavaScript, ES6, npm, Momen
 - Manaully update the package.json to  `"main": "server.js",` instead of index.js
 - Create a .gitignore file in the root and add `node_modules` to this file
 - If you need to re-add the dependencies, run $ `npm install`
-- Install MongoDB, first create a `c:/data/db` directory on your root, then install the Community Server https://www.mongodb.com/try/download/community, excluding the compass from the installation, and adding the /bin folder to the environment variable PATH.
+- Install MongoDB, first create a `c:/data/db` directory on your root, then install the Community Server from https://www.mongodb.com/try/download/community, excluding the compass from the installation, and adding the /bin folder to the environment variable PATH.
+- Install the MoongooseJS library
+- $ `npm install mongoose`
 
 ## Usage
 
@@ -59,7 +61,7 @@ MongoDB, Express.js, Mongoose JS, Insomnia, Node.js, JavaScript, ES6, npm, Momen
 - For testing the API routes locally, here is an Insomnia walkthrough to view GET, POST, PULL, DELETE API routes
 <insert Screencastify link>
 
-## Schema
+## Collections
 
 ## Userstory
 AS A social media startup
