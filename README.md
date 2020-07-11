@@ -1,5 +1,5 @@
 ﻿# Social Networking API
-This project focuses on the backend work of a social networking application supported by a MongoDB and Mongoose JS ODM, and the API routes from an Express.js server, as seen by testing locally through the Insomnia tool.
+API back-end work required for a social networking application supported by a MongoDB and Mongoose JS ODM, and routes from an Express.js server, as seen by testing locally through the Insomnia tool.
 
 ## GitHub URL
 
