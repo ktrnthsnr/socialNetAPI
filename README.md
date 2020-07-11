@@ -1,5 +1,5 @@
 ﻿# Social Networking API
-Node.js based social networking application API where friends may comment on each other's posts, to demonstrate the backend work supported by a MongoDB and Mongoose JS ODM, and the API routes from an Express.js server, as seen by testing locally through the Insomnia tool.
+This project focuses on the backend work of a social networking application supported by a MongoDB and Mongoose JS ODM, and the API routes from an Express.js server, as seen by testing locally through the Insomnia tool.
 
 ## GitHub URL
 

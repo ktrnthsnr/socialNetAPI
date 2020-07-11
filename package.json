@@ -1,5 +1,5 @@
 {
-  "name": "socialNetworkAPI",
+  "name": "socialNetAPI",
   "version": "1.0.0",
   "description": "Node.js based social networking application API where friends may comment on each other's posts, to demonstrate the backend work supported by a MongoDB and Mongoose ODM, and the API routes from an Express.js server, as seen by testing locally through the Insomnia tool.",
   "main": "server.js",
