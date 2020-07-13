@@ -2,7 +2,7 @@
 const { Schema, model, Types } = require('mongoose');
 // import Moment.js to format the date
 const moment = require('moment');
-const User = require('./User');
+// const User = require('./User');
 
 const ReactionSchema = new Schema(
     {
@@ -13,7 +13,8 @@ const ReactionSchema = new Schema(
       },
       reactionBody: {
         type: String,
-        required: true
+        required: true,
+        maxlength: 280
       },
       userName: {
         type: String,
@@ -32,7 +33,9 @@ const ThoughtSchema = new Schema(
       {
         thoughtText: {
           type: String,
-          required: true
+          required: true,
+          minlength:1,
+          maxlength: 280
         },
         createdAt: {
           type: Date,
@@ -59,7 +62,7 @@ const ThoughtSchema = new Schema(
 
 // (1) virtual definition to add Reaction count
 ThoughtSchema.virtual('reactionCount').get(function() {
-  return this.reactions.length;
+    return this.reactions.length;
 });
 
 

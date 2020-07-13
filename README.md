@@ -1,9 +1,14 @@
 ﻿# Social Networking API
+
 API back-end work required for a social networking application supported by a NoSQL MongoDB and MongooseJS library, API routes from an Express.js server, and routes tested through the Insomnia tool.
 
 ## GitHub URL
 
 https://github.com/ktrnthsnr/socialNetAPI
+
+## Insomnia walkthrough API endpoint routes
+
+https://drive.google.com/file/d/1yC4eNpDfnwyPZRjg7NMnKqZ6jBiDb9Vt/view
 
 
 ## Table of Contents
@@ -13,7 +18,6 @@ https://github.com/ktrnthsnr/socialNetAPI
 * [Installations](#installations)
 * [Usage](#usage)
 * [Testing](#testing)
-* [Collections](#collections)
 * [Userstory](#Userstory)
 * [Contribution](#contribution)
 
@@ -59,11 +63,11 @@ MongoDB, Express.js, Mongoose JS, Insomnia, Node.js, JavaScript, ES6, npm, Momen
 ## Testing
 
 - For testing the API routes locally, here is an Insomnia walkthrough to view GET, POST, PULL, DELETE API routes
-<insert Screencastify link>
+https://drive.google.com/file/d/1yC4eNpDfnwyPZRjg7NMnKqZ6jBiDb9Vt/view
 
-## Collections
 
 ## Userstory
+
 AS A social media startup
 I WANT an API for my social network that uses a NoSQL database
 SO THAT my website can handle large amounts of unstructured data
