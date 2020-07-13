@@ -45,6 +45,8 @@ MongoDB, Express.js, Mongoose JS, Insomnia, Node.js, JavaScript, ES6, npm, Momen
 - Install MongoDB, first create a `c:/data/db` directory on your root, then install the Community Server from https://www.mongodb.com/try/download/community, excluding the compass from the installation, and adding the /bin folder to the environment variable PATH.
 - Install the MoongooseJS library
 - $ `npm install mongoose`
+- Install npm Moment.js
+- $ `npm install moment`
 
 ## Usage
 

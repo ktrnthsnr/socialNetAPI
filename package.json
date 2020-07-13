@@ -5,6 +5,7 @@
   "main": "server.js",
   "dependencies": {
     "express": "^4.17.1",
+    "moment": "^2.27.0",
     "mongoose": "^5.9.23"
   },
   "devDependencies": {},
@@ -13,13 +14,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ktrnthsnr/socialNetworkAPI.git"
+    "url": "git+https://github.com/ktrnthsnr/socialNetAPI.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ktrnthsnr/socialNetworkAPI/issues"
+    "url": "https://github.com/ktrnthsnr/socialNetAPI/issues"
   },
-  "homepage": "https://github.com/ktrnthsnr/socialNetworkAPI#readme"
+  "homepage": "https://github.com/ktrnthsnr/socialNetAPI/blob/master/README.md"
 }

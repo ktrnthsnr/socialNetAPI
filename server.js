@@ -17,12 +17,13 @@ app.use(require('./routes'));
 // mongoose library connection to local mongo database
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/notesDB', {
   useFindAndModify: false,
-  useNewUrlParser: true,s
+  useNewUrlParser: true,
   useUnifiedTopology: true
 });
 
 // log for mongoDB queries that are ran
 mongoose.set('debug', true);
 
+
 // console log port listening to
-app.listen(PORT, () => console.log(`🌍 Connected on localhost PORT: ${PORT}`));
+app.listen(PORT, () => console.log(`Connected on localhost PORT: ${PORT}`));
