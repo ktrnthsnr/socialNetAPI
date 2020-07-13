@@ -2,9 +2,9 @@
 const express = require('express');
 //instantiate a server
 const app = express();
-//import mongooseJS library
+//import mongooseJS library that will be used to create the models and integrate with MongoDB
 const mongoose = require('mongoose');
-//set a port
+//set a port to validate locally
 const PORT = process.env.PORT || 3002;
 
 
@@ -15,7 +15,7 @@ app.use(express.static('public'));
 app.use(require('./routes'));
 
 // mongoose library connection to local mongo database
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/notesDB', {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/socialnetDB', {
   useFindAndModify: false,
   useNewUrlParser: true,
   useUnifiedTopology: true

@@ -1,5 +1,5 @@
 ﻿# Social Networking API
-API back-end work required for a social networking application supported by a NoSQL MongoDB and MongooseJS library, and API routes from an Express.js server, tested through the Insomnia tool.
+API back-end work required for a social networking application supported by a NoSQL MongoDB and MongooseJS library, API routes from an Express.js server, and routes tested through the Insomnia tool.
 
 ## GitHub URL
 
@@ -50,7 +50,7 @@ MongoDB, Express.js, Mongoose JS, Insomnia, Node.js, JavaScript, ES6, npm, Momen
 
 ## Usage
 
-- If this applicatin is cloned from github, complete the installationt, then start up at the bash commandline, by typing
+- If this applicatin is cloned from github, completed the installation `npm i`, then start up at the bash commandline, by typing
 - $ `npm start`
 - Here is walkthrough of the application from the localhost, if viewing the API routes through Insomnia,
 

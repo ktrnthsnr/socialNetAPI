@@ -1,7 +1,7 @@
 # mongodb notes
 
-Verify version
+- Verify version
 $ mongod
 
-Verify working
+- Verify working
 $ mongo
