@@ -52,10 +52,8 @@ MongoDB, Express.js, Mongoose JS, Insomnia, Node.js, JavaScript, ES6, npm, Momen
 
 - If this applicatin is cloned from github, completed the installation `npm i`, then start up at the bash commandline, by typing
 - $ `npm start`
-- Here is walkthrough of the application from the localhost, if viewing the API routes through Insomnia,
-
-- 
-![site](./img/site.jpg "insert")
+- Here is a sample containing JSON input and output for adding a user from POST API endpoint http://localhost:3002/api/users
+![PostUser](./img/POSTuser.jpg "post user")
 
 
 ## Testing
