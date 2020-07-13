@@ -1,7 +1,6 @@
 const { Schema, model } = require('mongoose');
 const moment = require('moment');   // will format createdAd date to look better
 const Thought = require('./Thought');
-const Reaction = require('./Reaction');
 
 //schema
 const UserSchema = new Schema(
@@ -19,17 +18,9 @@ const UserSchema = new Schema(
         required: true,
         trim: true
       },
-   
-    // with Moment.js installed, use Getter with Mongoose, by adding a get key to the field
-            // createdAt: {    // will auto-generate per Date.now, no need to add to JSON in POST
-            //   type: Date,
-            //   default: Date.now,
-            //   get: (createdAtVal) => moment(createdAtVal).format('MMM DD, YYYY [at] hh:mm a')
-            // },
-
-   
-    thoughtArray: [],    //array TODO: how to reference Thoughts.js model?
-    // parent (User model) associates to child documents (Thought model)
+      
+    // thoughtArray: [],    //array TODO: how to reference Thoughts.js model?
+    // // parent (User model) associates to child documents (Thought model)
     thoughts: [   
       {
         type: Schema.Types.ObjectId,  //associate User and thoughts models through ObjectID
@@ -58,7 +49,8 @@ const UserSchema = new Schema(
 // --  To add virtuals, (1) this definition (2) update schema above with toJSON property
       //get total count of friends on retrieval
   FriendSchema.virtual('friendCount').get(function() {
-        return this.friends.reduce((total, friend) => total + friend.length + 1, 0);
+        return this.friends.length;    
+    // return this.friends.reduce((total, friend) => total + friend.length + 1, 0);
   });
     
 
