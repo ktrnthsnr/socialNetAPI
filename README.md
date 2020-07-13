@@ -62,7 +62,7 @@ MongoDB, Express.js, Mongoose JS, Insomnia, Node.js, JavaScript, ES6, npm, Momen
 
 ## Testing
 
-- For testing the API routes locally, here is an Insomnia walkthrough to view GET, POST, PULL, DELETE API routes
+- For testing the API routes locally, here is an Insomnia walkthrough to view GET, POST, PUT, DELETE API routes
 https://drive.google.com/file/d/1yC4eNpDfnwyPZRjg7NMnKqZ6jBiDb9Vt/view
 
 
