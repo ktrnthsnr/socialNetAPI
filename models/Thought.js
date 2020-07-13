@@ -26,13 +26,6 @@ const ReactionSchema = new Schema(
         get: createdAtVal => moment(createdAtVal).format('MMM DD, YYYY [at] hh:mm a')
       }
     }
-    // ,
-            // {
-            //   toJSON: {
-            //     virtuals: true,   // (2) virtuals set to true
-            //     getters: true     // moment.js date formatting set to true
-            //   }
-            // }
   );
 
 const ThoughtSchema = new Schema(
@@ -51,8 +44,8 @@ const ThoughtSchema = new Schema(
             type: String,
             required: true
           },
-        reaction: [reactionSchema],
-    );
+        reaction: [ReactionSchema]
+      },
         // Virtual added, which is separated from grouping
       // this Virtual is for count of friends
       {

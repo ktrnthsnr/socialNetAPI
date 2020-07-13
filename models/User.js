@@ -48,14 +48,14 @@ const UserSchema = new Schema(
 
 // --  To add virtuals, (1) this definition (2) update schema above with toJSON property
       //get total count of friends on retrieval
-  FriendSchema.virtual('friendCount').get(function() {
+  UserSchema.virtual('friendCount').get(function() {
         return this.friends.length;    
     // return this.friends.reduce((total, friend) => total + friend.length + 1, 0);
   });
     
 
- // create the Friend model using the UserSchema
- const Friend = model('User', FriendSchema);
+ // create the user model using the UserSchema
+ const User = model('User', UserSchema);
 
   // export the User model
 module.exports = User;

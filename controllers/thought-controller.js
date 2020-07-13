@@ -26,12 +26,12 @@ const thoughtController = {
           .catch(err => res.json(err));
       },
 
-      // add reply method resides within the thoughtController, 
-        // note: new replies are NOT adding, are Updating an existing Thought
-      addReply({ params, body }, res) {
+      // add Reaction method resides within the thoughtController, 
+        // note: new reactions are NOT adding, are Updating an existing Thought
+      addReaction({ params, body }, res) {
         Thought.findOneAndUpdate(
           { _id: params.thoughtId },
-          { $push: { replies: body } },
+          { $push: { reactions: body } },
           { new: true }
         )
           .then(dbUserData => {
@@ -67,11 +67,11 @@ const thoughtController = {
           .catch(err => res.json(err));
       },
 
-    // remove reply with $pull operator
-    removeReply({ params }, res) {
+    // remove Reaction with $pull operator
+    removeReaction({ params }, res) {
       Thought.findOneAndUpdate(
         { _id: params.thoughtId },
-        { $pull: { replies: { replyId: params.replyId } } },
+        { $pull: { reactions: { reactionId: params.reactionId } } },
         { new: true }
       )
         .then(dbUserData => res.json(dbUserData))
